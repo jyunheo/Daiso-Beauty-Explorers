@@ -1,17 +1,17 @@
 # 🔍 다이소-Beauty 탐사대 (Daiso Beauty Explorers)
 
 > **오프라인 다이소 매대에서 스마트폰 링크를 통해 이용 가능한 AI 구매 도우미 시스템**
-> 소비자가 별도의 프로그램 설치 없이 웹 링크 접속만으로 화장품 품번을 입력하면, 실시간으로 리뷰를 수집하고 AI 기반의 긍정/부정 핵심 키워드 및 종합 평점을 분석해 주는 모바일 최적화 웹 서비스 입니다.
+> 소비자가 별도의 프로그램 설치 없이 웹 링크 접속으로 화장품 품번을 입력하면, 실시간으로 리뷰를 수집하고 AI 기반의 긍정/부정 핵심 키워드 및 종합 평점을 분석해 주는 모바일 최적화 웹 서비스 입니다.
 
 <br>
 
-## 🌐 서비스 바로가기 (Web Deployment)
+## 🌐 서비스 바로가기
  하단 링크를 통해 파이썬 환경이 없는 모바일 및 웹 환경에서도 서비스 체험이 가능합니다.
 - **[👉 다이소-Beauty 탐사대 웹 서비스 접속하기]- https://daiso-beauty-explorers.streamlit.app/**
 
 <br>
 
-## 📂 파일 구조 및 설명 (File Structure)
+## 📂 파일 구조 및 설명
 
 본 프로젝트는 '사전 구축 데이터(CSV)'와 사용자가 요청할 때 작동하는 '실시간 수집 엔진'이 투트랙으로 연동되는 구조입니다. 
 
@@ -37,7 +37,7 @@
   
 <br>
 
-## 🛠️ 개발 환경 (Tech Stack)
+## 🛠️ 개발 환경
 - **Language:** Python 3.x
 - **Libraries:** Streamlit, Pandas, Selenium, BeautifulSoup4, WebDriver Manager, Matplotlib
 - **Infrastructure:** GitHub, Streamlit Community Cloud (Linux Server Environments)
