@@ -4,9 +4,9 @@
 
 <br>
 
-## 🌐 서비스 바로가기
+## 🌐 웹 서비스 바로가기
  하단 링크를 통해 파이썬이 없는 모바일 환경에서도 서비스 체험이 가능합니다.
-- **[👉 다이소-Beauty 탐사대 웹 서비스 접속하기]- https://daiso-beauty-explorers.streamlit.app/**
+- **https://daiso-beauty-explorers.streamlit.app/**
 
 <br>
 
