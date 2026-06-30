@@ -34,6 +34,12 @@
 - **[경로 A - 기존 데이터 활용]:** 입력된 품번이 사전에 구축된 CSV 데이터셋에 존재할 경우, 즉시 평점 및 카테고리 추천 화면을 띄워줍니다.
 - **[경로 B - 실시간 크롤링 엔진 가동]:** 만약 가이드에 없는 신상품이나 새로운 품번이 입력되면, 서버 내부의 셀레니움(Selenium)이 실시간으로 해당 다이소몰 상품 페이지에 원격 접속하여 최신 리뷰를 실시간 크롤링 합니다.
 - 수집된 리뷰는 텍스트 마이닝 알고리즘을 거쳐 규칙 기반(Rule-based) 분석 방식으로 소비자가 한눈에 보기 쉽게 `😊 긍정 키워드`와 `😡 부정 키워드` 순위로 요약 및 시각화되어 화면에 표출됩니다.
+  
+<br>
+
+## 🛠️ 개발 환경 (Tech Stack)
 - **Language:** Python 3.x
+- **Libraries:** Streamlit, Pandas, Selenium, BeautifulSoup4, WebDriver Manager, Matplotlib
+- **Infrastructure:** GitHub, Streamlit Community Cloud (Linux Server Environments)
 - **Libraries:** Streamlit, Pandas, Selenium, BeautifulSoup4, WebDriver Manager, Matplotlib
 - **Infrastructure:** GitHub, Streamlit Community Cloud (Linux Server Environments)
